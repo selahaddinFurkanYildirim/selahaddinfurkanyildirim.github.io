@@ -1,0 +1,137 @@
+.renkli-kutu{
+    background: linear-gradient(
+      45deg,
+      #000000,
+      #878787,
+      #878787,
+      #878787,
+      #878787,
+      #000000
+    );
+    font-family: cursive, sans-serif;
+    text-align: center;
+    color: rgb(133, 157, 255);
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 5px 6px #000000;
+}
+.bosluk{
+    position:absolute;
+    font-family: cursive, sans-serif;
+    text-align: center;
+    padding: 10px;
+    border-radius: 4px;
+}
+.kirmizi-kutu{
+    font-family: cursive, sans-serif;
+    background: linear-gradient(
+      45deg,
+      #ff0000,
+      #878787,
+      #878787,
+      #878787,
+      #878787,
+      #ff0000
+    );
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 2px 3px #ec7f7f;
+}
+input[type=button]{
+    padding: 0.5em 1.5em;
+    transform: perspective(200px) rotateX(15deg);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(0deg, rgba(63,94,251,1) 0%, rgba(70,135,252,1) 100%);
+    box-shadow: rgba(63,94,251,0.2) 0px 40px 29px 0px;
+    will-change: transform;
+    transition: all 0.3s;
+    border-bottom: 2px solid rgba(70,135,252,1);
+}
+input[type=button]:hover {
+    transform: perspective(180px) rotateX(30deg) translateY(2px);
+}
+input[type=button]:active {
+    transform: perspective(170px) rotateX(36deg) translateY(5px);
+}
+input[type=submit]{
+    padding: 0.5em 1.5em;
+    transform: perspective(200px) rotateX(15deg);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(0deg, rgba(63,94,251,1) 0%, rgba(70,135,252,1) 100%);
+    box-shadow: rgba(63,94,251,0.2) 0px 40px 29px 0px;
+    will-change: transform;
+    transition: all 0.3s;
+    border-bottom: 2px solid rgba(70,135,252,1);
+}
+input[type=submit]:hover {
+    transform: perspective(180px) rotateX(30deg) translateY(2px);
+}
+input[type=submit]:active {
+    transform: perspective(170px) rotateX(36deg) translateY(5px);
+}
+
+.metin{
+    resize: none;
+    border: #2ecc71;
+    border-radius: 10px;
+}
+button {
+    font-size: 16px;
+    padding: 1em 3.3em;
+    transform: perspective(200px) rotateX(15deg);
+    color: white;
+    font-weight: 900;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(0deg, rgba(63,94,251,1) 0%, rgba(70,135,252,1) 100%);
+    box-shadow: rgba(63,94,251,0.2) 0px 40px 29px 0px;
+    will-change: transform;
+    transition: all 0.3s;
+    border-bottom: 2px solid rgba(70,135,252,1);
+}
+
+button:hover {
+    transform: perspective(180px) rotateX(30deg) translateY(2px);
+}
+
+button:active {
+    transform: perspective(170px) rotateX(36deg) translateY(5px);
+}
+textarea{
+    resize:none;
+    color:rgb(0, 51, 255);
+    background-color: #ccc;
+    box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 1);
+    padding:1em;
+}
+.textarea{
+    border-radius: 5px;
+    resize:none;
+    color:rgb(0, 51, 255);
+    background-color: #ccc;
+    box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 1);
+    padding: 1px;
+    padding-left: 3px;
+}
+input[type=text]{
+    border: none;
+    outline: none;
+    transform: scale(0.85);
+    border-radius: 1000px;
+    padding: 1em;
+    background-color: #ccc;
+    box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: 300ms ease-in-out;
+}
+input:focus {
+    background-color: white;
+    transform: scale(1);
+    border-radius: 1000px;
+    box-shadow: 13px 13px 100px #969696,-13px -13px 100px #ffffff;
+}

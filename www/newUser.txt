@@ -1,8 +1,0 @@
-New Users
-name :: passwd :: gmail
-_______________________
-a :: b :: c
-x :: y :: z
-a :: b :: c
-a :: b :: c
-a :: b :: c
